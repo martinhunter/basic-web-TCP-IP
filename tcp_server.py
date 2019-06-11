@@ -20,5 +20,5 @@ while True:
         print(data)
         tcp_cli_sock.send('beifen')
 #        tcp_cli_sock.send('[%s] %s' %(ctime(), data))
-        tcp_cli_sock.close
+        tcp_cli_sock.close()
 tcp_ser_sock.close()
